@@ -6,6 +6,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </title> Mount Ceramel Book Club </title>
+    <style>
+        body {
+            background-color: rgba(13, 237, 229, 0.97);
+        }
+
+        header {
+            background-color: aquamarine;
+        }
+
+        nav {
+            background-color: beige;
+        }
+
+        #intro {
+            background-color: cyan;
+        }
+
+        .main-section-content h2 {
+            background-color: lightblue;
+
+        }
+
+        #bestsellers,
+        footer {
+            background-color: lightpink;
+        }
+
+        header,
+        nav,
+        #intro,
+        #bestsellers,
+        #main-section,
+        footer {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 
 <body>
@@ -75,65 +111,78 @@
 
             <!-- Content 2 -->
 
-            <h2> Book revies </h2>
-            <h3> Allies in Wanderline </h3>
-            <p> <strong> Amit: </strong> <q> I loved reading this book. thsi is a must read for everyone</q> </p>
-            <p> <strong> Aidha: </strong> <q> I loved reading this book. thsi is a must read for everyone</q> </p>
-            <p> <strong> Nameer: </strong> <q> I loved reading this book. thsi is a must read for everyone</q> </p>
+            <div id="book-reviews" class="main-section-content">
+                <h2> Book revies </h2>
+                <h3> Allies in Wanderline </h3>
+                <p> <strong> Amit: </strong> <q> I loved reading this book. thsi is a must read for everyone</q> </p>
+                <p> <strong> Aidha: </strong> <q> I loved reading this book. thsi is a must read for everyone</q> </p>
+                <p> <strong> Nameer: </strong> <q> I loved reading this book. thsi is a must read for everyone</q> </p>
+
+            </div>
 
             <!-- content (3 videos) -->
 
-            <iframe src="https://www.youtube.com/shorts/VMjhvmV599g" frameborder="0"></iframe>
+            <div id="videos" class="main-section-content">
+                <iframe src="https://www.youtube.com/shorts/VMjhvmV599g" frameborder="0"></iframe>
+            </div>
 
             <!-- Content (4 Table) -->
 
-            <h2> Opening Timing </h2>
-            <table>
-                <tr>
-                    <th>Monday</th>
-                    <td> 11pm - 3pm </td>
-                </tr>
-                <tr>
-                    <th>Tuesday</th>
-                    <td> 11pm - 3pm </td>
-                </tr>
-                <tr>
-                    <th>Wednesday</th>
-                    <td> 11pm - 3pm </td>
-                </tr>
-                <tr>
-                    <th>Thrusday</th>
-                    <td> 11pm - 3pm </td>
-                </tr>
-                <tr>
-                    <th>Friday</th>
-                    <td> 11pm - 1pm </td>
-                </tr>
-                <tr>
-                    <th>Saturday</th>
-                    <td> 11pm - 1pm </td>
-                </tr>
-                <tr>
-                    <th>Sunday</th>
-                    <td> Closed </td>
-                </tr>
-            </table>
+            <div class="main-section-content">
+                <h2> Opening Timing </h2>
+                <table>
+                    <tr>
+                        <th>Monday</th>
+                        <td> 11pm - 3pm </td>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <td> 11pm - 3pm </td>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <td> 11pm - 3pm </td>
+                    </tr>
+                    <tr>
+                        <th>Thrusday</th>
+                        <td> 11pm - 3pm </td>
+                    </tr>
+                    <tr>
+                        <th>Friday</th>
+                        <td> 11pm - 1pm </td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td> 11pm - 1pm </td>
+                    </tr>
+                    <tr>
+                        <th>Sunday</th>
+                        <td> Closed </td>
+                    </tr>
+                </table>
+            </div>
         </div>
 
         <!-- Best seller Section -->
 
-        <h2> Best sellers </h2>
-        <b> Pearl Maiden </b> By <em> H.R. Haggard </em><br />
-        <b> Angels And Demons </b> By <em> Dan Brown </em><br />
-        <b> Alchemist </b> By <em> Paulo Ceolho </em><br />
-        <b> Debi </b> By <em> Humayun Ahmed </em><br />
+        <div id="bestsellers">
+            <h2> Best sellers </h2>
+            <ol>
+                <li><b> Pearl Maiden </b> By <em> H.R. Haggard </em><br /></li>
+                <li><b> Angels And Demons </b> By <em> Dan Brown </em><br /></li>
+                <li><b> Alchemist </b> By <em> Paulo Ceolho </em><br /></li>
+                <li><b> Debi </b> By <em> Humayun Ahmed </em><br /></li>
+            </ol>
+        </div>
 
         <!-- Contuct us -->
 
-        <p> Contuct Us. Mis Carolas </p>
-        <p> Phone no: +1959448456 </p>
-        <address> 221, baker street, London, Uk </address>
-
+        <footer>
+            <p> <span>Contuct Us.</span> Mis Carolas </p>
+            <p><span>Phone no:</span> +1959448456 </p>
+            <address> 221, baker street, London, Uk </address>
+        </footer>
+        <button>Enquiry</button>
     </div>
 
 </body>
